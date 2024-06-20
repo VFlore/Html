@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black; 
+        }
+    </style>
+</head> 
+<body>
+<table style="width: 500px;">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Hola Beats</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>Chanchito feliz</td>
+            <td>19.90$</td>
+        </tr>
+        <tr>   
+            <td>chanchito feliz muy feliz</td>
+            <td>30$</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>Total: 49.90$</td>
+    </tfoot>
+</table>
+    <!-- ul es lista no ordenada -->
+     <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada -->  
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+              <li style="list-style-type: lower-alpha;">subelemnto 1</li>  
+              <li style="list-style-type: lower-alpha;">subelemnto 2</li> 
+              <li style="list-style-type: lower-alpha;">subelemnto 3</li> 
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <form action="/formulario" method="POST" >
+        <label for="nombre">Nombre</label>
+        <input value="chanchito"  type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input  value="feliz"   type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50"  rows="10"  id="comentario" placeholder="ingrese su comentario" name="comentario">este es un valor por defecto</textarea>
+        <br>
+        <button type="button">Tipo botón</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+
+  </form> 
+        <h1>Mi primer heading</h1> 
+        <h2>Mi segundo heading</h2>
+        <h3>Mi tercer heading</h3>
+        <h4>Mi cuarto heading</h4>
+        <h5>Mi quinto hrading</h5>
+        <h6>Floki</h6>s
+        <p>Mi primer texto></p>
+        <p>Mi segundo texto</p>
+        <hr>
+        <h2>Seguimos con el heading</h2>
+        <p>Este Texto es un <span style="color:blue"> poco mas largo</span> para probar <br> una 
+            nueva funcion y <br> ver de que se trata!
+        </p>
+        <!-- Este espacio es para realizar
+         comentarios que no aparecen en el navegardor-->
+         <a target="_blank" href="https://www.google.com">Ir a Google </a>  
+
+         <img   src="img/IMG_7439.JPG" height="400"/>
+   
+ 
+
+</body>
+</html> 
